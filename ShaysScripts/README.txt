@@ -1,0 +1,1 @@
+Obstacle.cs requires the obstacle to have one empty object with a collider that handles triggers, and one empty object with a collider that handles physics.
