@@ -6,7 +6,10 @@ public class Floaty : MonoBehaviour
 {
     Collider2D Detector;
     private Rigidbody2D _hull;
-    private bool _inWater = false;
+    protected bool _inWater = false;
+
+    [SerializeField] float UpwardForce = 12.72f; 
+    [SerializeField] float _drag = 5f;
 
     void Start()
     {
@@ -15,22 +18,30 @@ public class Floaty : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-       if(_inWater == true)
+       if(_inWater == true)  //adds upwards force when in water. decreases drag as object floats up (need to tune)
         {
-            _hull.AddForce((transform.up * 12.72f), ForceMode2D.Force);
+            _hull.AddRelativeForce((transform.up * UpwardForce), ForceMode2D.Force);
+            _drag -= .05f;
+            _hull.drag =_drag;
         }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-      
         _inWater = true;
+        _drag = 5f; //drag of object when entering the water
     }
     void OnTriggerExit2D(Collider2D collision)
     {
-        
         _inWater = false;
+        _drag = .05f; //default drag
+        _hull.drag = _drag;
+    }
+
+    public bool GetWater()
+    {
+        return(_inWater);
     }
 }
