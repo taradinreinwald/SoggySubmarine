@@ -9,7 +9,6 @@ public class UpAndDown : MonoBehaviour
     [SerializeField] float _downForceCap = 22.55f;
     [SerializeField] private Floaty _bouyancy;
     [SerializeField] private float _angle;
-    [SerializeField] private float _drag = 5f;
 
     void Start()
     {
