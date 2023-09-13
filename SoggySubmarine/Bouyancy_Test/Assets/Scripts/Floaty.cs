@@ -20,9 +20,9 @@ public class Floaty : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-       if(_inWater == true)  //adds upwards force when in water. decreases drag as object floats up (need to tune)
+       if(_inWater == true && Input.GetKey(KeyCode.Space) ==  false)  //adds upwards force when in water. decreases drag as object floats up (need to tune)
         {
-            _hull.AddRelativeForce((transform.up * UpwardForce), ForceMode2D.Force);
+            _hull.AddRelativeForce((new Vector2(0,1) * UpwardForce), ForceMode2D.Force);
             _drag -= .05f;
             _hull.drag =_drag;
         }

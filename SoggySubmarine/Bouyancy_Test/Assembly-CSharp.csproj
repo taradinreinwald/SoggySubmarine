@@ -58,12 +58,12 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\ShaysScripts\UpAndDown.cs" />
     <Compile Include="Assets\Scripts\Floaty.cs" />
+    <Compile Include="Assets\Scripts\SpeedObstacle.cs" />
     <Compile Include="Assets\Scripts\Water.cs" />
     <Compile Include="Assets\Scripts\ShaysScripts\Obstacle.cs" />
-    <Compile Include="Assets\Scripts\Scroller.cs" />
     <Compile Include="Assets\Scripts\Collectable.cs" />
+    <Compile Include="Assets\Scripts\Scroller.cs" />
     <Compile Include="Assets\Scripts\ExplodingObstacle.cs" />
-    <Compile Include="Assets\Scripts\SpeedObstacle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\ShaysScripts\README.txt" />

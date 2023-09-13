@@ -5,10 +5,11 @@ using UnityEngine;
 public class UpAndDown : MonoBehaviour
 {
     private Rigidbody2D _body;
-    [SerializeField] float _downForce = 22.53f;
+    [SerializeField] float _downForce = 12.72f;
+    [SerializeField] float _downForceCap = 22.55f;
     [SerializeField] private Floaty _bouyancy;
     [SerializeField] private float _angle;
-    
+    [SerializeField] private float _drag = 5f;
 
     void Start()
     {
@@ -21,7 +22,7 @@ public class UpAndDown : MonoBehaviour
         HoldDown();
 
         //angle boat. angle front towards vector. issues: no forward vector so would need to do math with a fake forward vector to calculate angle. 
-        //AngleShip();
+        AngleShip();
     }
 
     void HoldDown()
@@ -32,7 +33,11 @@ public class UpAndDown : MonoBehaviour
             if (_bouyancy.GetWater() == true) //makes sure boat is in water before sinking
             {
                 // ... move the boat down.
-            _body.AddForce((new Vector3(0, -1, 0) * _downForce), ForceMode2D.Force);
+                _body.AddForce((new Vector3(0, -1, 0) * _downForce), ForceMode2D.Force);
+                if(_downForce < _downForceCap)
+                {
+                    _downForce += .05f;
+                }
             }
            
         }
@@ -40,11 +45,15 @@ public class UpAndDown : MonoBehaviour
 
     void AngleShip()
     {
-        _angle = (Vector2.Angle(new Vector2 (0,_body.velocity.y) , new Vector2(1, 0))) ;
-        //this.transform.Rotate(0,0, _angle);
-        transform.LookAt(transform.position + new Vector3(0,0,_angle));
+        _angle = (Mathf.Pow(_body.velocity.y, 2f) + 1);
+        _angle = _body.velocity.y > 0 ? _angle : -_angle;
+        if(_angle < -25f)
+        {
+            _angle = -25f;
+        }
+        transform.eulerAngles = new Vector3(0, 0, _angle);// = _angle;
+       // transform.Rotate(0, 0, _angle);
         
-        Debug.Log(_angle/50);
         
     }
 }
