@@ -30,14 +30,22 @@ public class Floaty : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        _inWater = true;
-        _drag = 5f; //drag of object when entering the water
+        if (collision.gameObject.layer == 4) //4 is the water layer
+        {
+            _inWater = true;
+            _drag = 5f; //drag of object when entering the water
+        }
+        
     }
     void OnTriggerExit2D(Collider2D collision)
     {
-        _inWater = false;
-        _drag = .05f; //default drag
-        _hull.drag = _drag;
+        if (collision.gameObject.layer == 4)
+        {
+            _inWater = false;
+            _drag = .05f; //default drag
+            _hull.drag = _drag;
+        }
+        
     }
 
     public bool GetWater()
