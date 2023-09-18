@@ -7,14 +7,20 @@ public class Collectable : MonoBehaviour
 {
     [SerializeField] int _pointValue = 1;
     public UnityEvent<int, Collectable> collected;
+    private GameManager gameManager;
     private void Awake()
     {
+        gameManager = FindObjectOfType<GameManager>();
         
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        collected.Invoke(_pointValue,this);
-        Destroy(gameObject);
+        if (other.gameObject.name == "Boat")
+        {
+            gameManager.IncreaseScore(_pointValue);
+            Destroy(gameObject);
+        }
+        
     }
 
 }

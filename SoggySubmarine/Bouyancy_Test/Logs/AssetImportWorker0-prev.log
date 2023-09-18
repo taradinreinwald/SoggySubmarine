@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.24f1 (cf10dcf7010d) revision 13570268'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 32767 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16237 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2021.3.24f1\Editor\Unity.exe
+D:\Game Dev\Unity\2021.3.24f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/b.laprade872/Desktop/NotSoggy/SoggySubmarine/SoggySubmarine/Bouyancy_Test
+C:/Users/lapra/Desktop/Soggy_Submarine/GameFiles/SoggySubmarine/SoggySubmarine/Bouyancy_Test
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56093
-Successfully changed project path to: C:/Users/b.laprade872/Desktop/NotSoggy/SoggySubmarine/SoggySubmarine/Bouyancy_Test
-C:/Users/b.laprade872/Desktop/NotSoggy/SoggySubmarine/SoggySubmarine/Bouyancy_Test
+54864
+Successfully changed project path to: C:/Users/lapra/Desktop/Soggy_Submarine/GameFiles/SoggySubmarine/SoggySubmarine/Bouyancy_Test
+C:/Users/lapra/Desktop/Soggy_Submarine/GameFiles/SoggySubmarine/SoggySubmarine/Bouyancy_Test
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,112 +47,109 @@ C:/Users/b.laprade872/Desktop/NotSoggy/SoggySubmarine/SoggySubmarine/Bouyancy_Te
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23200] Host "[IP] 172.28.0.65 [Port] 0 [Flags] 2 [Guid] 1475420099 [EditorId] 1475420099 [Version] 1048832 [Id] WindowsEditor(7,PRD-MYB-SAL012) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21904] Host "[IP] 192.168.1.83 [Port] 0 [Flags] 2 [Guid] 3439721339 [EditorId] 3439721339 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2D34QQT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23200] Host "[IP] 172.28.0.65 [Port] 0 [Flags] 2 [Guid] 1475420099 [EditorId] 1475420099 [Version] 1048832 [Id] WindowsEditor(7,PRD-MYB-SAL012) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21904] Host "[IP] 192.168.1.83 [Port] 0 [Flags] 2 [Guid] 3439721339 [EditorId] 3439721339 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-2D34QQT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 98.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 75.23 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/b.laprade872/Desktop/NotSoggy/SoggySubmarine/SoggySubmarine/Bouyancy_Test/Assets
+[Subsystems] Discovering subsystems at path D:/Game Dev/Unity/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lapra/Desktop/Soggy_Submarine/GameFiles/SoggySubmarine/SoggySubmarine/Bouyancy_Test/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA A40-8Q (ID=0x2235)
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
     Vendor:   NVIDIA
-    VRAM:     7970 MB
-    Driver:   31.0.15.2889
+    VRAM:     12129 MB
+    Driver:   31.0.15.3713
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Mono path[0] = 'D:/Game Dev/Unity/2021.3.24f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Game Dev/Unity/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Game Dev/Unity/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.040137 seconds.
+Register platform support module: D:/Game Dev/Unity/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003332 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 99.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 73.68 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.026 seconds
+- Completed reload, in  0.589 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1026ms)
-		BeginReloadAssembly (201ms)
+	ReloadAssembly (590ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (593ms)
-			LoadAssemblies (183ms)
+		EndReloadAssembly (445ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (129ms)
+			SetupTypeCache (104ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (340ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (272ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (100ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (159ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009144 seconds.
+Registered in 0.006900 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\b.laprade872\Desktop\NotSoggy\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\b.laprade872\Desktop\NotSoggy\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 108.63 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 67.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.654 seconds
+- Completed reload, in  0.929 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1655ms)
-		BeginReloadAssembly (231ms)
+	ReloadAssembly (929ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1236ms)
-			LoadAssemblies (193ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (743ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (282ms)
+			SetupTypeCache (202ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (77ms)
-			SetupLoadedEditorAssemblies (658ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (379ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (164ms)
-				ProcessInitializeOnLoadAttributes (270ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (61ms)
+				RefreshPlugins (67ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (31ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.65 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3742 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 35 unused Assets / (56.1 KB). Loaded Objects now: 4201.
-Memory consumption went from 144.0 MB to 143.9 MB.
-Total: 4.226400 ms (FindLiveObjects: 0.453400 ms CreateObjectMapping: 0.156700 ms MarkObjects: 3.511700 ms  DeleteObjects: 0.103500 ms)
+Unloading 3745 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (56.1 KB). Loaded Objects now: 4204.
+Memory consumption went from 144.2 MB to 144.1 MB.
+Total: 2.798800 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.256800 ms MarkObjects: 2.178500 ms  DeleteObjects: 0.063700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,62 +163,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 53281.172334 seconds.
-  path: Assets/Art/SS_Bomb.png
-  artifactKey: Guid(59b377897bdad1c4fb00168d60be5243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/SS_Bomb.png using Guid(59b377897bdad1c4fb00168d60be5243) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197a5bbf5c3810d10f2481ba1bf38381') in 0.170969 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Art/SS_Sub.png
-  artifactKey: Guid(7c9ea6ce653ccc7448c9c3bc96749228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/SS_Sub.png using Guid(7c9ea6ce653ccc7448c9c3bc96749228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab5b59a540b839e49328736c3b830918') in 0.026535 seconds 
+  Time since last request: 262810.250076 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(34d77b7ad0ab871489ac04f45c42f883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(34d77b7ad0ab871489ac04f45c42f883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cef3a5b9cef1769360e648fb7b32c2e3') in 0.012332 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012286 seconds.
+Registered in 0.006336 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\b.laprade872\Desktop\NotSoggy\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\b.laprade872\Desktop\NotSoggy\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.520 seconds
+- Completed reload, in  0.819 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1521ms)
-		BeginReloadAssembly (273ms)
+	ReloadAssembly (820ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1041ms)
-			LoadAssemblies (208ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (625ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (503ms)
+			SetupTypeCache (207ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (271ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (152ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (67ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.09 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3731 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4214.
-Memory consumption went from 147.2 MB to 147.2 MB.
-Total: 3.788600 ms (FindLiveObjects: 0.425800 ms CreateObjectMapping: 0.129400 ms MarkObjects: 3.196300 ms  DeleteObjects: 0.035900 ms)
+Unloading 3735 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4208.
+Memory consumption went from 143.1 MB to 143.1 MB.
+Total: 2.722700 ms (FindLiveObjects: 0.289600 ms CreateObjectMapping: 0.207300 ms MarkObjects: 2.201800 ms  DeleteObjects: 0.023500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -233,6 +223,386 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006127 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.816 seconds
+Domain Reload Profiling:
+	ReloadAssembly (816ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (621ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (261ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3736 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4212.
+Memory consumption went from 143.1 MB to 143.1 MB.
+Total: 2.385200 ms (FindLiveObjects: 0.256800 ms CreateObjectMapping: 0.166600 ms MarkObjects: 1.937800 ms  DeleteObjects: 0.023000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008305 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.799 seconds
+Domain Reload Profiling:
+	ReloadAssembly (800ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (605ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (192ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (265ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.06 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4216.
+Memory consumption went from 143.1 MB to 143.1 MB.
+Total: 2.609500 ms (FindLiveObjects: 0.273700 ms CreateObjectMapping: 0.170800 ms MarkObjects: 2.143600 ms  DeleteObjects: 0.020500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50.964571 seconds.
+  path: Assets/Scripts/Floaty.cs
+  artifactKey: Guid(0847d1090f9311a45bff4cf25948a2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Floaty.cs using Guid(0847d1090f9311a45bff4cf25948a2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707a8f58b76ebe9a3b829cadd8d1819e') in 0.023499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.365885 seconds.
+  path: Assets/Scripts/ExplodingObstacle.cs
+  artifactKey: Guid(7ef7bc59402c8bf4fbbf8a1d1184212a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ExplodingObstacle.cs using Guid(7ef7bc59402c8bf4fbbf8a1d1184212a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42c1c832668290bfb29e14a53edb3cb') in 0.006960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.084314 seconds.
+  path: Assets/Scenes/TestGymBlake.unity
+  artifactKey: Guid(261010b8a7101db4fa945a83c441c885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestGymBlake.unity using Guid(261010b8a7101db4fa945a83c441c885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45c325fd1acc40cc0b80cf79b430432') in 0.007221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.398518 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c23e514d24f6b65fe96946cd87fc526') in 0.007019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.014475 seconds.
+  path: Assets/Scenes/TestGymShaylyn.unity
+  artifactKey: Guid(7a193de7c003d9e4c8b9177ed7af3322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/TestGymShaylyn.unity using Guid(7a193de7c003d9e4c8b9177ed7af3322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78564252ad47a29d04b9ffbc821ab5ca') in 0.007182 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008007 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Domain Reload Profiling:
+	ReloadAssembly (859ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (651ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (181ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.7 KB). Loaded Objects now: 4219.
+Memory consumption went from 143.2 MB to 143.1 MB.
+Total: 3.030900 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.209000 ms MarkObjects: 2.484100 ms  DeleteObjects: 0.040400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006995 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\lapra\Desktop\Soggy_Submarine\GameFiles\SoggySubmarine\SoggySubmarine\Bouyancy_Test\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.841 seconds
+Domain Reload Profiling:
+	ReloadAssembly (841ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (639ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (180ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (24.6 KB). Loaded Objects now: 4222.
+Memory consumption went from 143.2 MB to 143.1 MB.
+Total: 2.697500 ms (FindLiveObjects: 0.309200 ms CreateObjectMapping: 0.220800 ms MarkObjects: 2.144200 ms  DeleteObjects: 0.022400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 56.098902 seconds.
+  path: Assets/Scripts/ObjectCollection.cs
+  artifactKey: Guid(baa04d50302ff7a49a2d85a9829ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ObjectCollection.cs using Guid(baa04d50302ff7a49a2d85a9829ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e6a845a4c4cf30b5fe4c9c1072a6450') in 0.013707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.430068 seconds.
+  path: Assets/Scenes/StartMenu.unity
+  artifactKey: Guid(18d7cce660920dc43b0c88b74fdf58b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/StartMenu.unity using Guid(18d7cce660920dc43b0c88b74fdf58b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3f57d7308bc0764c833d8fe0691d5cb') in 0.006932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.615937 seconds.
+  path: Assets/Art
+  artifactKey: Guid(be021750ef138a3468451bc656be608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art using Guid(be021750ef138a3468451bc656be608d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b996a6f69e4c9048a130a62e0063d38') in 0.007396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072692 seconds.
+  path: Assets/Art/MicrosoftTeams-image (1).png
+  artifactKey: Guid(27cb712c6a2b95f4e92222855c7d8206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/MicrosoftTeams-image (1).png using Guid(27cb712c6a2b95f4e92222855c7d8206) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba021769a7ae26bf28c91f6dd661c2c') in 0.167718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Art/SS_Sub.png
+  artifactKey: Guid(7c9ea6ce653ccc7448c9c3bc96749228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/SS_Sub.png using Guid(7c9ea6ce653ccc7448c9c3bc96749228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342f0a570df99f1041eddadd6e21fdbd') in 0.030858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 519.121018 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0001.png
+  artifactKey: Guid(68d1544ecd41f4446bd689582e233f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0001.png using Guid(68d1544ecd41f4446bd689582e233f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '198b8e38b80b1f98b18722f8548f6110') in 0.148749 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0005.png
+  artifactKey: Guid(07f5925ba65f65045b404d418471363f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0005.png using Guid(07f5925ba65f65045b404d418471363f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8536d8bc765d07998c9d34b66cc390a') in 0.151763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0014.png
+  artifactKey: Guid(0fa66aa989ba80f4599f36280791f551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0014.png using Guid(0fa66aa989ba80f4599f36280791f551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11aac9eceb6b7a8daaefcfee1fc6c425') in 0.139150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0006.png
+  artifactKey: Guid(57fe6969a4df63b4e8b164a0d2c70673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0006.png using Guid(57fe6969a4df63b4e8b164a0d2c70673) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63b05db4998762d2c252e42f7ce7393') in 0.112758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0021.png
+  artifactKey: Guid(60ec15dac43124542aab212649b5a8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0021.png using Guid(60ec15dac43124542aab212649b5a8dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3b29a354d48645e531fc0a03ff775a') in 0.117616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0017.png
+  artifactKey: Guid(da1f7e353d96d3e44bb07438ed88cf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0017.png using Guid(da1f7e353d96d3e44bb07438ed88cf27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d8ba4ee3793eded4723c59d47979f5c') in 0.117332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0032.png
+  artifactKey: Guid(a1773f0501d10714ba4e7a6bcd01e6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0032.png using Guid(a1773f0501d10714ba4e7a6bcd01e6f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada05731bbd5ec933de5641d4580560e') in 0.100138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0018.png
+  artifactKey: Guid(87165ba2af2e46048ad7dbec03d9446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0018.png using Guid(87165ba2af2e46048ad7dbec03d9446d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b207cb628ffe6a39c22d7f412e3189') in 0.129608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0008.png
+  artifactKey: Guid(7acafd9b46373d0488deb8f8dbcb349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0008.png using Guid(7acafd9b46373d0488deb8f8dbcb349b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5ac6854a063335fd5003a9b9bf10696') in 0.134394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0015.png
+  artifactKey: Guid(c8fe31a42c5257d49b11c62f4c05a383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0015.png using Guid(c8fe31a42c5257d49b11c62f4c05a383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4c21931ec2dbea71785dc9db963460') in 0.116134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0003.png
+  artifactKey: Guid(3993f08876b269941a4fce0e174bc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0003.png using Guid(3993f08876b269941a4fce0e174bc6b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b196d7fd6d1bf69d274f81efd08d7891') in 0.111035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0016.png
+  artifactKey: Guid(d25b2a73c7cb7f5428ffab8499de6391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0016.png using Guid(d25b2a73c7cb7f5428ffab8499de6391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84332ab7ec696d8ccd5ae9a6d19de221') in 0.106671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0022.png
+  artifactKey: Guid(fcf245ada9d9fdb48b832db9f1691e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0022.png using Guid(fcf245ada9d9fdb48b832db9f1691e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e83cf7df5d9ddf69a18dab8b3d7655') in 0.117302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0031.png
+  artifactKey: Guid(6e3321c22a6da5c42a24be60ec6d6681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0031.png using Guid(6e3321c22a6da5c42a24be60ec6d6681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2678142b1dc1ff3074596dc39d64829') in 0.100679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0002.png
+  artifactKey: Guid(40681421a05838047a61812e7bdfa400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0002.png using Guid(40681421a05838047a61812e7bdfa400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c124aba739ee8e6d937c64b9f21d2da3') in 0.107668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Art/Animation/submarine_explode/Submarine_Explode_0013.png
+  artifactKey: Guid(1a77995a769965c45b7ef11761a4db4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Animation/submarine_explode/Submarine_Explode_0013.png using Guid(1a77995a769965c45b7ef11761a4db4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0d6048bd5c6e9972c3769888446e6f') in 0.118403 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

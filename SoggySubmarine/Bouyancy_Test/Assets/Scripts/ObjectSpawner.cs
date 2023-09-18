@@ -6,16 +6,20 @@ public class ObjectSpawner : MonoBehaviour
 {
 
     [SerializeField] private Object[] _objects;
-
+    [SerializeField] private float _sec = 3f;
     // Start is called before the first frame update
-    void Start()
+    IEnumerator Start()
     {
-        Instantiate(_objects[Random.Range(0, _objects.Length)], this.transform);
+       while(true)
+        {
+            yield return new WaitForSeconds(_sec);
+            Spawn();
+        }
     }
 
-    // Update is called once per frame
-    void FixedUpdate()
+    
+    void Spawn()
     {
-        
+        Instantiate(_objects[Random.Range(0, _objects.Length)], this.transform);
     }
 }

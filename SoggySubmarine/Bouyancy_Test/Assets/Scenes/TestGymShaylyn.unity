@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 89157539}
   - component: {fileID: 89157540}
+  - component: {fileID: 89157541}
   m_Layer: 0
   m_Name: SS_Submarine
   m_TagString: Untagged
@@ -207,6 +208,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &89157541
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89157538}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bdf016b2b7713af43bc372e38393dad8, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &419864292
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,7 +727,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 870980367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.16, y: 2.3, z: 0}
+  m_LocalPosition: {x: -5.37, y: 2.3, z: 0}
   m_LocalScale: {x: 2.6391, y: 0.6274746, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -766,8 +788,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _downForce: 40
+  _downForceCap: 22.55
   _bouyancy: {fileID: 870980372}
   _angle: 1.5
+  animator: {fileID: 0}
 --- !u!1 &987793180
 GameObject:
   m_ObjectHideFlags: 0
