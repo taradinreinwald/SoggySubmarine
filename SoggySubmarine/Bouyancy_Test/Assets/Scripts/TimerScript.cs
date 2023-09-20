@@ -42,7 +42,7 @@ public class TimerScript : MonoBehaviour
         }
 
         // Configures how the timer text will display.
-        TimerText.text = minutes + ":" + seconds;
+        TimerText.text = string.Format(": {0}:{1}",minutes,seconds);
 
 
 

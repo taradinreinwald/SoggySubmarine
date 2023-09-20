@@ -11,7 +11,8 @@ public class UpAndDown : MonoBehaviour
     [SerializeField] private Floaty _bouyancy;
     [SerializeField] private float _angle;
     [SerializeField] private Animator animator;
-
+    [SerializeField] private Animator powerUp;
+    
     void Start()
     {
         _body = GetComponent<Rigidbody2D>();
@@ -20,6 +21,7 @@ public class UpAndDown : MonoBehaviour
             animator = GetComponentInChildren<Animator>();
         }
         animator.SetBool("Dead", false);
+        powerUp.gameObject.SetActive(false);
 
     }
 
@@ -44,7 +46,7 @@ public class UpAndDown : MonoBehaviour
                 _body.AddForce((new Vector3(0, -1, 0) * _downForce), ForceMode2D.Force);
                 if(_downForce < _downForceCap)
                 {
-                    _downForce += .05f;
+                    _downForce += .04f;
                 }
             }
            
@@ -64,8 +66,57 @@ public class UpAndDown : MonoBehaviour
         
         
     }
+
+    public void GetArmour()
+    {
+        if (powerUp.gameObject.activeSelf == true)
+        {
+            GameManager.Instance.IncreaseScore(5);
+        }
+        else
+        {
+            powerUp.gameObject.SetActive(true);
+            animator.gameObject.GetComponent<SpriteRenderer>().enabled = false;
+        }
+            
+    }
+
+
     public void Die()
     {
-        animator.SetBool("Dead",true);
+        if(powerUp.gameObject.activeSelf == true)
+        {
+            powerUp.SetTrigger("Hit");
+            StartCoroutine(Anim(powerUp));
+            AudioManager.Instance.PlayExplosion();
+            animator.gameObject.GetComponent<SpriteRenderer>().enabled = true;
+        }
+        else
+        {
+            GameManager.Instance.StopScrolling();
+            animator.SetBool("Dead", true);
+            _bouyancy.SetMoving(false);
+            StartCoroutine(Anim(animator));
+            AudioManager.Instance.PlayExplosion();
+        }
+        
     }
+    IEnumerator Anim(Animator anim)
+    {
+        
+        yield return new WaitForSeconds(anim.GetCurrentAnimatorClipInfo(0).Length);
+        if(anim == animator)
+        {
+            GameManager.Instance.DeadPauseControl();
+        }
+        else if(anim == powerUp)
+        {
+            powerUp.gameObject.SetActive(false);
+            powerUp.ResetTrigger("Hit");
+        }
+       
+
+    }
+
+
 }

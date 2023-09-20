@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Events;
+
 
 public class Collectable : MonoBehaviour
 {
     [SerializeField] int _pointValue = 1;
-    public UnityEvent<int, Collectable> collected;
+   
     private GameManager gameManager;
     private void Awake()
     {
@@ -17,7 +17,7 @@ public class Collectable : MonoBehaviour
     {
         if (other.gameObject.name == "Boat")
         {
-            gameManager.IncreaseScore(_pointValue);
+            GameManager.Instance.IncreaseScore(_pointValue);
             Destroy(gameObject);
         }
         

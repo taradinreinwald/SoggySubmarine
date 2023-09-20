@@ -16,7 +16,6 @@ public class StartMenu : MonoBehaviour
         // Quits the application
         Application.Quit();
 
-        // DELETE THIS when we make our build! Will cause errors!
-        UnityEditor.EditorApplication.isPlaying = false;
+        
     }
 }

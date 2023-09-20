@@ -9,6 +9,7 @@ public class ExplodingObstacle : MonoBehaviour
         if(other.gameObject.name == "Boat")
         {
             other?.GetComponent<UpAndDown>().Die();
+            Destroy(gameObject);
         }
         Debug.Log("EXPLOSION!");
     }

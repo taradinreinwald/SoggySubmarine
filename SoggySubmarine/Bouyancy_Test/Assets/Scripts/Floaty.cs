@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class Floaty : MonoBehaviour
 {
-    Collider2D Detector;
+    [SerializeField] Collider2D Detector;
     private Rigidbody2D _hull;
     protected bool _inWater = false;
 
     [SerializeField] float UpwardForce = 12.72f; 
     [SerializeField] float _drag = 5f;
+    private bool _moving = true;
 
     void Start()
     {
+        if(Detector = null)
+        {
+            Detector = GetComponent<Collider2D>();
+        }
         Detector = GetComponent<Collider2D>();
         _hull = GetComponent<Rigidbody2D>();
     }
@@ -20,7 +25,7 @@ public class Floaty : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-       if(_inWater == true && Input.GetKey(KeyCode.Space) ==  false)  //adds upwards force when in water. decreases drag as object floats up (need to tune)
+       if((_inWater == true && Input.GetKey(KeyCode.Space) ==  false) && _moving == true)  //adds upwards force when in water. decreases drag as object floats up (need to tune)
         {
             _hull.AddRelativeForce((new Vector2(0,1) * UpwardForce), ForceMode2D.Force);
             _drag -= .07f;
@@ -47,7 +52,11 @@ public class Floaty : MonoBehaviour
         }
         
     }
-
+    public void SetMoving(bool moving)
+    {
+        _moving = moving;
+    }
+    
     public bool GetWater()
     {
         return(_inWater);

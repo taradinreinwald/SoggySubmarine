@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class ObjectCollection : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] private float speed = -5f;
+   
 
     // Update is called once per frame
     void Update()
     {
-        transform.position += new Vector3(-5f, 0,0) * Time.deltaTime;
+        transform.position += new Vector3(speed, 0,0) * Time.deltaTime;
+    }
+
+    public void Stop()
+    {
+        speed = 0;
     }
 }

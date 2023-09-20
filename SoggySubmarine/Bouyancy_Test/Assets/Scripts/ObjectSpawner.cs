@@ -22,4 +22,12 @@ public class ObjectSpawner : MonoBehaviour
     {
         Instantiate(_objects[Random.Range(0, _objects.Length)], this.transform);
     }
+    public void StopAll()
+    {
+        ObjectCollection[] children = GetComponentsInChildren<ObjectCollection>();
+        foreach(ObjectCollection child in children)
+        {
+            child.Stop();
+        }
+    }
 }
